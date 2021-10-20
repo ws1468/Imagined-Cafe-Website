@@ -6,6 +6,7 @@ body, html {
   margin: 0px;
   padding: 0px;
   font-family: 'Quicksand', sans-serif;
+  color: #343a40;
 }
 
 .navBar {
@@ -25,6 +26,8 @@ body, html {
 
 .navButton {
     /* padding: 14px 80px; */
+    font-size: large;
+    font-weight: bold;
 }
 
 .logoButton {
@@ -49,20 +52,22 @@ body, html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 10vh;
+  padding-top: 6vh;
   color: white;
+  font-size: x-large;
 }
 
 .heroText button {
   border: none;
   outline: 0;
   display: inline-block;
-  padding: 15px 30px;
+  padding: 20px 35px;
   color: white;
   background-color: #f598a0;
   text-align: center;
   cursor: pointer;
-  border-radius: 25px;
+  border-radius: 30px;
+  font-size: medium;
 }
 
 .heroText button:hover {
@@ -181,7 +186,12 @@ details[open] summary {
 }
 
 .contactinfo * {
-  padding: 2vw;
+  /* padding: 2vw; */
+  margin: 2vw;
+}
+
+.contactinfo *:hover {
+  color: #91b5b5
 }
 
 .sectionHeader {
@@ -196,4 +206,5 @@ details[open] summary {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #c2c2c2;
 }
