@@ -31,7 +31,7 @@ body, html {
   position: relative;
   top: -5vh;
   left: -5vw;
-  background-color: #eee;
+  background-color: #FFD7BA;
   width: 100px;
   height: 80px;
 }
@@ -60,13 +60,7 @@ body, html {
 
 .menuSection {
     padding: 5vh;
-}
-
-.sectionHeader {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  /* border-bottom: 1px solid #aaa; */
+    /* margin: 2vh; */
 }
 
 .menuItems {
@@ -119,15 +113,75 @@ details[open] summary {
 }
 
 .aboutSection {
-  background-color: #F8EDEB;
-  height: 50vh;
+  background-color: #FAE1DD;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutSection .introduction {
+  display: flex;
+  /* padding: 3vh; */
+  margin: 3vh;
+}
+
+.introduction * {
+  /* margin: 1vw; */
+  padding: 1vw;
+  width: 45vw;
 }
 
 .locationsSection {
-  height: 50vh;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.locationsSection .storelocations {
+  display: flex;
+  flex-flow: row wrap;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.addresslocation {
+  padding: 2vw;
 }
 
 .contactSection {
-  background-color: #F8EDEB;
-  height: 50vh;
+  /* background-color: #F8EDEB; */
+  background-color: #FAE1DD;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactinfo {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.contactinfo * {
+  padding: 2vw;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* border-bottom: 1px solid #aaa; */
+}
+
+.footer {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
