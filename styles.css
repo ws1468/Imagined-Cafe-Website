@@ -11,16 +11,17 @@ body, html {
 
 .navBar {
   display: flex;
-  /* background-color: #333; */
+  background-color: #333;
   color: #fff;
   /* height: 100vh; */
-  padding: 8vh;
+  padding: 5vh;
   justify-content: space-around;
-  /* background-color: rgba(0, 0, 0, .4); */
-  /* backdrop-filter: blur(1px); */
+  background-color: rgba(185, 210, 207, .7);
+  backdrop-filter: blur(1px);
   width: 100%;
+  height: 14vh;
   /* z-index:10; */
-  /* position: fixed; */
+  position: fixed;
   /* top: 0; */
 }
 
@@ -33,7 +34,7 @@ body, html {
 .navButton a {
   color: #fff;
   text-decoration: none;
-  padding: 20px 35px;
+  padding: 16px 28px;
   border-radius: 30px;
 }
 
@@ -42,21 +43,31 @@ body, html {
 }
 
 .logoButton {
+  display: flex;
   position: relative;
-  top: -5vh;
-  left: -5vw;
+  top: -4vh;
+  left: -3vw;
   /* background-color: #FFD7BA; */
   /* background-image: url("logo.jpeg"); */
-  background-image: url("logo1.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  border-radius: 50px;
+  /* background-image: url("logo1.png"); */
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
+  /* border-radius: 50px; */
   width: 100px;
   height: 80px;
 }
 
+.logoButton img {
+
+  width: 100%;
+  height: 100%;
+}
+
 .hero {
-  background-image: linear-gradient(rgba( 203, 153, 126, 0.6), rgba(107, 112, 92, 0.5)), url("taromilktea.jpeg");
+  display: flex;
+  justify-content: center;
+
+  background-image: linear-gradient(rgba(203, 153, 126, 0.6), rgba(107, 112, 92, 0.5)), url("taromilktea.jpeg");
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -147,7 +158,7 @@ details[open] summary {
 
 .aboutSection {
   background-color: #ffcfcf;
-  height: 80vh;
+  height: 65vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -157,7 +168,7 @@ details[open] summary {
 .aboutSection .introduction {
   display: flex;
   /* padding: 3vh; */
-  margin: 3vh;
+  /* margin: 3vh; */
 }
 
 .introduction * {
