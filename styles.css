@@ -16,7 +16,11 @@ body, html {
   /* height: 100vh; */
   padding: 5vh;
   justify-content: space-around;
-  background-color: rgba(185, 210, 207, .7);
+  /* background-color: rgba(185, 210, 207, .7); */
+  /* background-color: rgba(242, 132, 130, .6); */
+  background-color: rgba(245, 158, 157, .6);
+
+
   backdrop-filter: blur(1px);
   width: 100%;
   height: 14vh;
@@ -39,7 +43,7 @@ body, html {
 }
 
 .navButton a:hover, .menuButton a:active {
-  background-color: #f598a0;
+  background-color: #b9d2cf;
 }
 
 .logoButton {
