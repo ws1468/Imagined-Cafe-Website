@@ -17,7 +17,7 @@ body, html {
   padding: 8vh;
   justify-content: space-around;
   /* background-color: rgba(0, 0, 0, .4); */
-  backdrop-filter: blur(1px);
+  /* backdrop-filter: blur(1px); */
   width: 100%;
   /* z-index:10; */
   /* position: fixed; */
@@ -28,6 +28,17 @@ body, html {
     /* padding: 14px 80px; */
     font-size: large;
     font-weight: bold;
+}
+
+.navButton a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 35px;
+  border-radius: 30px;
+}
+
+.navButton a:hover, .menuButton a:active {
+  background-color: #f598a0;
 }
 
 .logoButton {
